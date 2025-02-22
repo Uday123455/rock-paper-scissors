@@ -76,8 +76,12 @@ for(let i=0;i<3;i++){
 
 // wins decider
 
-if(c_point=u_point)console.log("game is tie");
-
-else if(c_point>u_point)console.log("comp wins");
-
-else console.log("user wins");
+if(c_point=u_point){
+    console.log("game is tie");
+}
+else if(c_point>u_point){
+    console.log("comp wins");
+}
+else {
+    console.log("user wins");
+}
