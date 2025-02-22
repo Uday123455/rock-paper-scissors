@@ -1,4 +1,4 @@
-console.log("hello world");
+// this is the js script file linked to rock paper scissors project in top course
 
 // function to take the input from user
 
