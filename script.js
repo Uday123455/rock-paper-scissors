@@ -50,7 +50,7 @@ function points (user,comp){
         }
         else if(comp[0]=='s'){
             console.log("comp wins");
-            c_point;
+            c_point++;
         }
     }
     else if(user[0]=='s'){
