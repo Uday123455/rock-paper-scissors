@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="container">
+        <!-- heading -->
+        <div class="head">
+            <h1>Rock Paper Scissors</h1>
+            <hr>
+        </div>
+        
+        <!-- versus section and score -->
+        <div class="veru">
+            <div class="user">
+                <img src="images/user.jpg" alt="user" style="width: 80%;">
+                <h3 class="usCh" style="font-size: 1rem;">you choosed:</h3>
+                <h3 class="u_score">score</h3>
+                <hr>
+            </div>
+            <div class="versus">
+                <img src="images/vs.jpg" alt="versus" style="width: 80%;">
+                <h2 class="win"></h2>
+                <h2 class="r1"></h2>
+                <hr>
+            </div>
+            <div class="comp">
+                <img src="images/bot.jpg" alt="computer" style="width: 80%; margin-top: 100px;">
+                <h3 class="usco">comp choose:</h3>
+                <h3 class="c_score">score</h3>
+                <vr>
+            </div>
+        </div>
+
+        <!-- buttons -->
+        <div class="btns">
+            <button id="rock"><img  src="images/rock.jpg" alt=""></button>
+            <button id="paper"><img src="images/paper.jpg" alt=""></button>
+            <button id="sci"><img src="images/sci.jpg" alt=""></button>
+        </div>
+    </div>
     
+    
+    <script src="script.js"></script>
 </body>
 </html>
